@@ -9,24 +9,51 @@
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-32x32.png">
     <link rel="manifest" href="/site.webmanifest">
+    
     <title>Welcome!!</title>
 </head>
 
 <body>
+
     <div class="container">
-        <header>
-            <div class="img-wrapper">  <!--Embrulhando a imagem -->
-                <img src="imagens/bg.jpg" alt="Imagem do meu local de trabalho">
+
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
             </div>
             <div class="banner">
-            <h1>Olá Dear Stranger! </h1> 
-            <h2>Web development</h2>
-            <p> Franciélly Lima </p>
-            <button>SAIBA MAIS</button>
-        </div>
+                <h1>Hello, Dear Stranger! </h1>
+                <h2>Web development</h2>
+                <p> Franciélly Lima </p>
+                <button>SAIBA MAIS</button>
+            </div>
         </header>
-    </div>
+
+        <aside class="sidebar">
+            <nav>
+              <ul class="menu">
+                <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+              </ul>
+            </nav>
+            <div class="social-media">
+              <a href="http://linkedin.com/in/franciélly-lima"><i class="fab fa-linkedin"></i></a>
+              <a href="https://instagram.com/frannl_?igshid=1g11a0j7zq7bj"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/franciellylima"><i class="fab fa-github-square"></i></a>
+            </div>
+          </aside>
+          </div>
 
 </body>
-
+<script src="script.js"></script>
 </html>
